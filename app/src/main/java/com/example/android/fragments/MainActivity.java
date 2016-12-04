@@ -4,7 +4,6 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -16,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         TitlesFragment fragment = new TitlesFragment();
+//        BeibeiFragment fragment = new BeibeiFragment();
 //        BeibeiFragment fragment = new BeibeiFragment();
         fragmentTransaction.add(R.id.FragmentContainer, fragment);
         fragmentTransaction.commit();
