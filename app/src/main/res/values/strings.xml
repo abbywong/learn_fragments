@@ -2,5 +2,7 @@
     <string name="app_name">Fragments</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Hello 贝贝</string>
+    <string name="go_to_page">Go to 贝贝 page</string>
+    <string name="frame_hello_world">Frame Hello World!</string>
 </resources>
