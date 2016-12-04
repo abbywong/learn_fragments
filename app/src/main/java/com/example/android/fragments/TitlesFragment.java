@@ -71,7 +71,7 @@ public class TitlesFragment extends Fragment implements View.OnClickListener {
 //        TitlesFragment fragment = new TitlesFragment();
 //        BeibeiFragment fragment = new BeibeiFragment();
         fragmentTransaction.replace(R.id.FragmentContainer, newFragment);
-//        ft.addToBackStack(null);  /// TODO: 2016/12/4  
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 
